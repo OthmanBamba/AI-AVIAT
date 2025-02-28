@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Accueil | AIRPLANESMARTPARK</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        body {
+            display: flex;
+            margin: 0;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Sidebar styling */
+        .sidebar {
+            width: 150px;
+            background-image: url('./static/images/v.png');
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+
+        .menu-title {
+            color: #A9CAE3;
+            text-align: left;
+            margin-bottom: 20px;
+            font-size: 1.1em;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+            font-weight: bold;
+        }
+
+        /* Main panel styling */
+        .main-panel {
+            flex: 1;
+            background-image: url('{{ url_for('static', filename='images/ben2.png') }}');
+            background-size: cover;
+            padding: 20px;
+            color: gray;
+            position: relative;
+        }
+
+        h1 {
+            color: #A9CAE3 !important;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
+            font-weight: bold;
+        }
+
+        /* Sidebar list styling */
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 10px 0;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: #A9CAE3 !important; /* Link color */
+            font-weight: bold;
+            transition: color 0.3s ease;
+            font-size: 1em;
+        }
+
+        ul li a:hover {
+            text-decoration: underline;
+            color: blue;
+        }
+
+        /* Active link styling */
+        ul li a.active {
+            color: darkblue;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        /* Logout link styling */
+        .logout {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            color: #A9CAE3;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Animation for sidebar links */
+        ul li {
+            animation: fadeIn 0.5s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes fadeIn {
+       0% {
+           opacity: 0;
+           transform: translateY(-20px);
+       }
+       100% {
+           opacity: 1;
+           transform: translateY(0);
+       }
+   }
+
+   h3.centered-title {
+       text-align: center;
+       color: skyblue;
+       animation: fadeIn 2s ease-in-out;
+   }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h2 class="menu-title">Menu</h2>
+        <ul>
+            <li><a href="{{ url_for('home') }}" class="{% if request.endpoint == 'home' %}active{% endif %}">ACCUEIL</a></li>
+            <li><a href="{{ url_for('smart_parking') }}">AIPARKING</a></li>
+            <li><a href="{{ url_for('dataset_view') }}" class="{% if request.endpoint == 'dataset_view' %}active{% endif %}">DATASETS </a></li>
+            <li><a href="{{ url_for('show_visualizations') }}" class="{% if request.endpoint == 'show_visualizations' %}active{% endif %}">ANALYSES</a></li>
+  </ul>
+        <a href="{{ url_for('logout') }}" class="logout">Déconnexion</a>
+    </div>
+
+    <div class="main-panel">
+        <div class="menu">
+            <h1>******AEROPARKOPTIM*******</h1>
+            <h2 style="text-align: center; color: #A9CAE3; animation: fadeIn 3s ease-in-out;">Application de gestion de stationnement d'aéroneufs</h2>
+
+            {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                <ul class="flashes">
+                    {% for category, message in messages %}
+                        <li class="{{ category }}">{{ message }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        {% endwith %}
+            {% if section == 'accueil' %}
+                           <p>Bienvenue sur le tableau de bord d'AIRPLANESMARTPARK !</p>
+
+                       {% elif section == 'dataset' %}
+                           <h2>Fichiers CSV sauvegardés</h2>
+                           {% if csv_files %}
+                               <ul>
+                                   {% for file in csv_files %}
+                                       <li>{{ file }}</li>
+                                   {% endfor %}
+                               </ul>
+                           {% else %}
+                               <p>Aucun fichier CSV trouvé.</p>
+                           {% endif %}
+
+                       {% elif section == 'visualisations' %}
+                           <p>Visualisations à venir...</p>
+                       {% elif section == 'statistiques' %}
+                           <p>Statistiques à venir...</p>
+
+                       {% endif %}
+            {% block content %}
+            {% endblock %}
+        </div>
+    </div>
+</body>
+</html>

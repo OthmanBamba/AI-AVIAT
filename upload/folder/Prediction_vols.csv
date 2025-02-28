@@ -1,0 +1,71 @@
+flight_date	flight	airline	flight_status	needs_parking	predicted_needs_parking
+2024-11-13T09:35:00+00:00	UU8307	Air Austral	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T08:35:00+00:00	KQ4333	Kenya Airways	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T09:40:00+00:00	KE6448	Korean Air	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T08:25:00+00:00	AI7514	Air India	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T08:25:00+00:00	AF5075	Air France	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T07:15:00+00:00	BA304	British Airways	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T08:25:00+00:00	A33318	Aegean Airlines	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T09:35:00+00:00	KE6360	Korean Air	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T12:45:00+00:00	UK23	Vistara	scheduled	Ne nécessite pas de stationnement sur le tarmac	Cet avion ne nécessite pas de stationnement sur le tarmac
+2024-11-14T00:05:00+00:00	MF825	Xiamen Airlines	scheduled	Ne nécessite pas de stationnement sur le tarmac	Cet avion ne nécessite pas de stationnement sur le tarmac
+2024-11-13T07:30:00+00:00	B65642	JetBlue Airways	active	Ne nécessite pas de stationnement sur le tarmac	Cet avion ne nécessite pas de stationnement sur le tarmac
+2024-11-13T09:05:00+00:00	G35280	Gol	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T09:40:00+00:00	SK9864	SAS	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T09:05:00+00:00	MU1878	China Eastern Airlines	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T09:55:00+00:00	MK9681	Air Mauritius	active	Ne nécessite pas de stationnement sur le tarmac	Cet avion ne nécessite pas de stationnement sur le tarmac
+2024-11-14T00:15:00+00:00	SQ336	Singapore Airlines	scheduled	Ne nécessite pas de stationnement sur le tarmac	Cet avion ne nécessite pas de stationnement sur le tarmac
+2024-11-13T09:40:00+00:00	AF7331	Air France	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T09:35:00+00:00	AM5730	Aeromexico	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T09:05:00+00:00	BJ508	Nouvelair Tunisie	landed	Nécessite un stationnement sur le tarmac	Cet avion ne nécessite pas de stationnement sur le tarmac
+2024-11-13T09:05:00+00:00	LX4602	SWISS	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T08:35:00+00:00	VN3156	Vietnam Airlines	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T09:55:00+00:00	EY5883	Etihad Airways	active	Ne nécessite pas de stationnement sur le tarmac	Cet avion ne nécessite pas de stationnement sur le tarmac
+2024-11-13T10:30:00+00:00	HM6404	Air Seychelles	active	Ne nécessite pas de stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T09:00:00+00:00	LY9744	El Al	landed	Nécessite un stationnement sur le tarmac	Cet avion ne nécessite pas de stationnement sur le tarmac
+2024-11-13T09:40:00+00:00	DL8288	Delta Air Lines	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T09:00:00+00:00	LY9794	El Al	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T09:00:00+00:00	A33369	Aegean Airlines	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T09:25:00+00:00	MU1541	China Eastern Airlines	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T12:45:00+00:00	AI6349	Air India	unknown	Ne nécessite pas de stationnement sur le tarmac	Cet avion ne nécessite pas de stationnement sur le tarmac
+2024-11-13T09:40:00+00:00	RO9550	TAROM	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T10:35:00+00:00	QR8251	Qatar Airways	scheduled	Ne nécessite pas de stationnement sur le tarmac	Cet avion ne nécessite pas de stationnement sur le tarmac
+2024-11-13T08:25:00+00:00	UA7265	United Airlines	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T09:35:00+00:00	AF1307	Air France	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T10:30:00+00:00	TK1823	Turkish Airlines	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T09:55:00+00:00	JL5302	Jet Linx Aviation	active	Ne nécessite pas de stationnement sur le tarmac	Cet avion ne nécessite pas de stationnement sur le tarmac
+2024-11-14T00:35:00+00:00	CZ347	China Southern Airlines	scheduled	Ne nécessite pas de stationnement sur le tarmac	Cet avion ne nécessite pas de stationnement sur le tarmac
+2024-11-13T09:40:00+00:00	AM5875	Aeromexico	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T09:30:00+00:00	LH2228	Lufthansa	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T09:05:00+00:00	UX2211	Air Europa	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T09:00:00+00:00	SK837	SAS	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T10:15:00+00:00	AA9234	American Airlines	active	Ne nécessite pas de stationnement sur le tarmac	Cet avion ne nécessite pas de stationnement sur le tarmac
+2024-11-13T09:05:00+00:00	SK9843	SAS	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-14T00:15:00+00:00	MU553	China Eastern Airlines	scheduled	Ne nécessite pas de stationnement sur le tarmac	Cet avion ne nécessite pas de stationnement sur le tarmac
+2024-11-13T09:35:00+00:00	MU1666	China Eastern Airlines	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T10:30:00+00:00	UA6926	United Airlines	active	Ne nécessite pas de stationnement sur le tarmac	Cet avion ne nécessite pas de stationnement sur le tarmac
+2024-11-13T07:30:00+00:00	FI542	Icelandair	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T09:35:00+00:00	KQ3951	Kenya Airways	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T10:30:00+00:00	3U7213	Sichuan Airlines	active	Ne nécessite pas de stationnement sur le tarmac	Cet avion ne nécessite pas de stationnement sur le tarmac
+2024-11-13T08:35:00+00:00	EY2832	Etihad Airways	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T09:00:00+00:00	A33387	Aegean Airlines	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T08:25:00+00:00	SK565	SAS	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-14T01:20:00+00:00	CA1035	Air China LTD	scheduled	Ne nécessite pas de stationnement sur le tarmac	Cet avion ne nécessite pas de stationnement sur le tarmac
+2024-11-13T13:05:00+00:00	AI143	Air India	scheduled	Ne nécessite pas de stationnement sur le tarmac	Cet avion ne nécessite pas de stationnement sur le tarmac
+2024-11-13T09:05:00+00:00	AF1543	Air France	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T12:20:00+00:00	UU8735	Air Austral	active	Ne nécessite pas de stationnement sur le tarmac	Cet avion ne nécessite pas de stationnement sur le tarmac
+2024-11-13T09:35:00+00:00	DL8433	Delta Air Lines	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-14T01:25:00+00:00	AF381	Air France	scheduled	Ne nécessite pas de stationnement sur le tarmac	Cet avion ne nécessite pas de stationnement sur le tarmac
+2024-11-13T08:15:00+00:00	U28403	easyJet	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T09:05:00+00:00	VN3143	Vietnam Airlines	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T09:55:00+00:00	KE6462	Korean Air	active	Ne nécessite pas de stationnement sur le tarmac	Cet avion ne nécessite pas de stationnement sur le tarmac
+2024-11-13T08:35:00+00:00	AZ316	ITA Airways	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T09:25:00+00:00	SQ1853	Singapore Airlines	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T08:35:00+00:00	MF9578	Xiamen Airlines	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T08:25:00+00:00	AC2971	Air Canada	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T10:15:00+00:00	RJ117	Royal Jordanian	active	Ne nécessite pas de stationnement sur le tarmac	Cet avion ne nécessite pas de stationnement sur le tarmac
+2024-11-13T09:40:00+00:00	AR7821	Aerolineas Argentinas	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T08:25:00+00:00	OZ9382	Asiana Airlines	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T09:40:00+00:00	AY6326	Finnair	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac
+2024-11-13T09:00:00+00:00	SK573	SAS	landed	Nécessite un stationnement sur le tarmac	Cet avion ne nécessite pas de stationnement sur le tarmac
+2024-11-13T09:25:00+00:00	RO9576	TAROM	landed	Nécessite un stationnement sur le tarmac	Cet avion nécessite un stationnement sur le tarmac

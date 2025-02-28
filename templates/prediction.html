@@ -1,0 +1,55 @@
+{% extends "home.html" %}
+
+{% block content %}
+
+<h3 style="text-align: center; color:white ;">Résultats des Prédictions</h3>
+
+<div class="main-panel" style="margin-top: 0.5px;">
+  <div class="button-group" style="text-align: right; margin-bottom: 10px;">
+  <form action="{{ url_for('generer_optimisation') }}" method="GET">
+      <button type="submit" class="btn btn-primary">Optimisation automatique.....</button>
+  </form>
+</div>
+
+    <div class="table-container" style="background-color: #f0f0f0; padding: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+      {% if page_data %}
+          <table class="csv-table" style="width: 100%; border-collapse: collapse;">
+              <thead>
+                  <tr style="background-color: #A9CAE3; color: white;">
+                      <th style="padding: 10px; border: 1px solid #ddd;">Date du Vol</th>
+                      <th style="padding: 10px; border: 1px solid #ddd;">Id vol</th>
+                      <th style="padding: 10px; border: 1px solid #ddd;">Compagnie Aérienne</th>
+                      <th style="padding: 10px; border: 1px solid #ddd;">Statut Vol</th>
+                      <th style="padding: 10px; border: 1px solid #ddd;">Besoin de Stationnement (réel)</th>
+                      <th style="padding: 10px; border: 1px solid #ddd;">Prédiction de Stationnement</th>
+                  </tr>
+              </thead>
+              <tbody>
+                {% for row in page_data %}
+                      <tr style="background-color: {% if loop.index is divisibleby 2 %}#f9f9f9{% else %}#ffffff{% endif %};">
+                          <td style="padding: 10px; border: 1px solid #ddd;">{{ row['flight_date'] }}</td>
+                          <td style="padding: 10px; border: 1px solid #ddd;">{{ row['flight'] }}</td>
+                          <td style="padding: 10px; border: 1px solid #ddd;">{{ row['airline'] }}</td>
+                          <td style="padding: 10px; border: 1px solid #ddd;">{{ row['flight_status'] }}</td>
+                          <td style="padding: 10px; border: 1px solid #ddd;">{{ row['needs_parking'] }}</td>
+                          <td style="padding: 10px; border: 1px solid #ddd;">{{ row['predicted_needs_parking'] }}</td>
+                      </tr>
+                  {% endfor %}
+                </tbody>
+            </table>
+
+            <div class="pagination">
+    {% if page|default(1) > 1 %}
+        <a href="{{ url_for('load_model_and_predict', page=page|default(1)-1) }}">Précédent</a>
+    {% endif %}
+    {% if page|default(1) < total_pages|default(1) %}
+        <a href="{{ url_for('load_model_and_predict', page=page|default(1)+1) }}">Suivant</a>
+    {% endif %}
+</div>
+        {% else %}
+            <p>Aucune prédiction à afficher.</p>
+        {% endif %}
+    </div>
+</div>
+
+{% endblock %}

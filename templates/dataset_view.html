@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+
+    <style>
+      * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+      }
+
+      body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0; /* Supprime les marges par défaut */
+    padding: 0; /* Supprime les paddings par défaut */
+}
+
+      .container {
+      display: flex;
+      width: 100%;
+      overflow-x: hidden;
+      margin: 0; /* Enlever les marges externes du conteneur */
+  }
+
+
+  /* Sidebar avec background image et sans espace en haut */
+.sidebar {
+width: 220px;
+background-image: url('/static/images/v.png');
+background-size: cover;
+color: #A9CAE3;
+padding: 50px;
+position: fixed;
+height: 150vh;
+margin: 0; /* Retirer la marge */
+top: 0; /* S'assurer que la sidebar commence en haut de la page */
+}
+
+      .sidebar h3 {
+          margin-bottom: 6px;
+      }
+
+      .sidebar ul {
+          list-style: none;
+      }
+
+      .sidebar ul li {
+          margin: 20px 0;
+      }
+
+      .sidebar ul li a {
+          color: #A9CAE3;
+          text-decoration: none;
+          font-weight: bold; /* Rend le texte des liens en gras */
+      }
+
+      .sidebar .back-home {
+          position: absolute;
+          bottom: 30px;
+          left: 40px;
+          color: #A9CAE3;
+          text-decoration: none;
+      }
+
+      .main-panel {
+          margin-left: 220px;
+          padding: 20px;
+          display: flex;
+           width: calc(100% - 220px); /* Prendre toute la largeur restante après le sidebar */
+
+          justify-content: space-between;
+          flex-wrap: wrap;
+          background-image: url('/static/images/x.png'); /* Ajout du fond d'image */
+          background-size: cover; /* Couvre tout le fond */
+          background-position: center; /* Centrer l'image */
+          background-repeat: no-repeat; /* Ne pas répéter l'image */
+          height: 100vh;
+      }
+
+      h1 {
+          margin-bottom: 20px;
+          text-align: center;
+          width: 100%;
+      }
+
+      .datasets-table {
+          flex-grow: 1;
+          max-width: 50%; /* Réduire la largeur à 50% */
+          border-collapse: collapse;
+          margin-right: 20px;
+      }
+
+      .datasets-table, th, td {
+          border: 1px solid #ddd;
+      }
+
+      th, td {
+          padding: 20px;
+          text-align: left;
+      }
+
+      th {
+          background-color: #f2f2f2;
+      }
+
+      /* Styles pour l'aperçu du fichier CSV */
+      .preview-section {
+          flex-grow: 1;
+          max-width: 40%; /* Réduire la largeur de l'aperçu à 40% */
+          border: 1px solid #ddd;
+          padding: 20px;
+          overflow-y: auto;
+          margin-left: 20px;
+      }
+
+      .preview-section h2 {
+          margin-bottom: 10px;
+      }
+
+      .preview-table {
+          width: 100%;
+          border-collapse: collapse;
+      }
+
+      .preview-table th, .preview-table td {
+          padding: 8px;
+          text-align: left;
+          border: 1px solid #ddd;
+      }
+
+      .preview-table th {
+          background-color: #f2f2f2;
+      }
+
+      /* Pagination */
+      .pagination {
+          margin-top: 20px;
+          display: flex;
+          justify-content: center;
+      }
+
+      .pagination a {
+          margin: 0 5px;
+          padding: 5px 10px;
+          text-decoration: none;
+          color: #A9CAE3;
+          border: 1px solid #ddd;
+          border-radius: 4px;
+      }
+
+      .pagination a:hover {
+          background-color: #ddd;
+      }
+
+  </style>
+
+
+<head>
+    <meta charset="UTF-8">
+    <h3 style="text-align: center; color: blue;">FICHIERS SAUVEGARDES</h3>
+
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+             <h3>Menu</h3>
+            <ul>
+                <li><a href="{{ url_for('home') }}">ACCUEIL</a></li>
+                <li><a href="{{ url_for('smart_parking') }}">AIPARKING</a></li>
+                <li><a href="{{ url_for('dataset_view') }}">DATASET</a></li>
+                <li><a href="{{ url_for('show_visualizations') }}">ANALYSES</a></li>
+
+            </ul>
+            <a class="back-home" href="{{ url_for('home') }}">Retour à l'accueil</a>
+        </div>
+
+        <div class="main-panel">
+
+
+            <!-- Liste des fichiers CSV sous forme de tableau -->
+            <table class="datasets-table">
+                <thead>
+                    <tr>
+                      <th style="background-color: blue; color: white;">Titre du fichier</th>
+                      <th style="background-color: blue; color: white;">Contenu</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for file in files %}
+                    <tr>
+                        <td>{{ file }}</td>
+                        <td><a href="{{ url_for('dataset_view', file=file) }}">Aperçu</a></td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+
+            <!-- Affichage de l'aperçu du fichier CSV sélectionné -->
+            {% if file_preview %}
+                <div class="preview-section">
+                    <h2>Aperçu du fichier: {{ selected_file }}</h2>
+                    <div class="preview-table">
+                        {{ file_preview | safe }}
+                    </div>
+
+                <!-- Pagination -->
+        <div class="pagination">
+            {% if current_page > 1 %}
+            <a href="{{ url_for('dataset_view', file=selected_file, page=current_page-1) }}">Précédent</a>
+            {% endif %}
+            <span>Page {{ current_page }} sur {{ total_pages }}</span>
+            {% if current_page < total_pages %}
+            <a href="{{ url_for('dataset_view', file=selected_file, page=current_page+1) }}">Suivant</a>
+            {% endif %}
+        </div>
+        </div>
+            {% else %}
+                <p>Aucun fichier sélectionné pour l'aperçu.</p>
+            {% endif %}
+        </div>
+
+</body>
+</html>

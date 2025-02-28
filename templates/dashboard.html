@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Bienvenue à AIRPLANESMARTPARK</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="sidebar">
+        <a href="{{ url_for('dashboard') }}">Tableau de Bord</a>
+        <a href="{{ url_for('predict') }}">Prédiction de Stationnement</a>
+        <a href="{{ url_for('optimize') }}">Optimisation de Stationnement</a>
+    </div>
+    <div class="main-content">
+        <h1>Bienvenue à AIRPLANESMARTPARK</h1>
+        <div>
+            {% for table in tables %}
+                {{ table|safe }}
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>

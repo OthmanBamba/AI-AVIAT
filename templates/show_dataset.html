@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Afficher Dataset</title>
+</head>
+<body>
+    <h1>Dataset téléchargé avec succès</h1>
+    {% if tables %}
+        <div>
+            <h2>Table des données :</h2>
+            <div>{{ tables[0]|safe }}</div>  <!-- Affiche le tableau -->
+        </div>
+    {% else %}
+        <p>Aucune donnée à afficher.</p>
+    {% endif %}
+</body>
+</html>

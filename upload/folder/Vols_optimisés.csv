@@ -1,0 +1,101 @@
+flight_date,airline,arrival_hour,predicted_needs_parking,can_park,alert
+2024-11-17 00:05:00+00:00,Thai Airways International,0,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Thai Airways International n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 00:20:00+00:00,China Eastern Airlines,0,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie China Eastern Airlines n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 02:40:00+00:00,Air China LTD,2,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Air China LTD n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 02:10:00+00:00,Delta Air Lines,2,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Delta Air Lines n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 02:10:00+00:00,KLM,2,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie KLM n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 02:10:00+00:00,Air France,2,L'avion nécessite un stationnement sur le tarmac,1,L'avion de la compagnie Air France est autorisé à stationner sur le tarmac.
+2024-11-17 01:55:00+00:00,KLM,1,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie KLM n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 01:55:00+00:00,Air France,1,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Air France n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 03:35:00+00:00,SriLankan Airlines,3,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie SriLankan Airlines n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 01:00:00+00:00,KLM,1,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie KLM n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 01:25:00+00:00,Qatar Airways,1,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Qatar Airways n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 02:45:00+00:00,CMA CGM Air Cargo,2,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie CMA CGM Air Cargo n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 01:25:00+00:00,Air France,1,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Air France n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 01:00:00+00:00,Air France,1,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Air France n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 02:40:00+00:00,Etihad Airways,2,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Etihad Airways n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 01:25:00+00:00,KLM,1,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie KLM n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 01:20:00+00:00,Gulf Air,1,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Gulf Air n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 02:05:00+00:00,Delta Air Lines,2,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Delta Air Lines n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 02:05:00+00:00,KLM,2,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie KLM n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 02:05:00+00:00,Air France,2,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Air France n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 08:25:00+00:00,JAL,8,L' avion ne nécessite pas de stationnement sur le tarmac,1,ALERTE : L'avion de la compagnie JAL ne peut pas stationner en raison des heures de pointe.
+2024-11-17 09:05:00+00:00,Air France,9,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Air France n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 07:50:00+00:00,Central Airlines,7,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Central Airlines n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 01:30:00+00:00,Air France,1,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Air France n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 01:30:00+00:00,KLM,1,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie KLM n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 01:30:00+00:00,Delta Air Lines,1,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Delta Air Lines n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 03:20:00+00:00,Emirates,3,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Emirates n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 03:20:00+00:00,Qantas,3,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Qantas n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 03:20:00+00:00,Garuda Indonesia,3,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Garuda Indonesia n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 02:05:00+00:00,Air France,2,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Air France n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 02:05:00+00:00,CSA,2,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie CSA n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 02:05:00+00:00,Delta Air Lines,2,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Delta Air Lines n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 00:40:00+00:00,Air France,0,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Air France n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 06:15:00+00:00,Delta Air Lines,6,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Delta Air Lines n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 06:15:00+00:00,KLM,6,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie KLM n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 06:15:00+00:00,Air France,6,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Air France n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 02:05:00+00:00,Saudia,2,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Saudia n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 00:15:00+00:00,Air Senegal,0,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Air Senegal n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 00:15:00+00:00,Air Senegal,0,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Air Senegal n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 01:25:00+00:00,RwandAir,1,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie RwandAir n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 01:25:00+00:00,Virgin Australia,1,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Virgin Australia n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 01:25:00+00:00,SriLankan Airlines,1,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie SriLankan Airlines n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 01:25:00+00:00,Malaysia Airlines,1,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Malaysia Airlines n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 01:25:00+00:00,Air Malta,1,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Air Malta n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 01:25:00+00:00,Iberia,1,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Iberia n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 02:40:00+00:00,Air France,2,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Air France n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 02:40:00+00:00,SriLankan Airlines,2,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie SriLankan Airlines n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 00:35:00+00:00,Air France,0,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Air France n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 01:55:00+00:00,Delta Air Lines,1,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Delta Air Lines n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 01:45:00+00:00,Air France,1,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Air France n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 01:45:00+00:00,KLM,1,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie KLM n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 01:45:00+00:00,Delta Air Lines,1,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Delta Air Lines n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 10:35:00+00:00,Asiana Airlines,10,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Asiana Airlines n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 00:20:00+00:00,Air France,0,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Air France n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 03:25:00+00:00,Delta Air Lines,3,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Delta Air Lines n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 00:15:00+00:00,Virgin Australia,0,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Virgin Australia n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 00:15:00+00:00,Philippine Airlines,0,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Philippine Airlines n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 00:25:00+00:00,Air France,0,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Air France n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 00:25:00+00:00,KLM,0,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie KLM n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 00:25:00+00:00,Delta Air Lines,0,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Delta Air Lines n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 09:45:00+00:00,ANA,9,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie ANA n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 00:40:00+00:00,Delta Air Lines,0,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Delta Air Lines n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 09:50:00+00:00,T'Way Air,9,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie T'Way Air n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 03:25:00+00:00,Hi Fly,3,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Hi Fly n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 00:40:00+00:00,KLM,0,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie KLM n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 00:30:00+00:00,Ethiopian Airlines,0,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Ethiopian Airlines n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 00:30:00+00:00,ANA,0,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie ANA n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 00:30:00+00:00,Air Canada,0,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Air Canada n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 03:25:00+00:00,Air France,3,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Air France n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 03:25:00+00:00,WestJet,3,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie WestJet n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 03:25:00+00:00,China Eastern Airlines,3,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie China Eastern Airlines n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 03:25:00+00:00,Kenya Airways,3,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Kenya Airways n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 00:15:00+00:00,Cathay Pacific,0,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Cathay Pacific n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 00:15:00+00:00,Singapore Airlines,0,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Singapore Airlines n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 00:35:00+00:00,China Southern Airlines,0,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie China Southern Airlines n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 01:15:00+00:00,Air France,1,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Air France n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 01:15:00+00:00,KLM,1,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie KLM n'est pas autorisé à stationner sur le tarmac.
+2024-11-17 01:15:00+00:00,Delta Air Lines,1,L' avion ne nécessite pas de stationnement sur le tarmac,1,L'avion de la compagnie Delta Air Lines n'est pas autorisé à stationner sur le tarmac.
+2024-11-16 06:30:00+00:00,United Airlines,6,L'avion nécessite un stationnement sur le tarmac,1,L'avion de la compagnie United Airlines est autorisé à stationner sur le tarmac.
+2024-11-16 08:25:00+00:00,United Airlines,8,L'avion nécessite un stationnement sur le tarmac,1,ALERTE : L'atterrissage de l'avion de la compagnie United Airlines aura lieu pendant les heures de pointe. Un aménagement immédiat doit être fait.
+2024-11-16 08:25:00+00:00,Croatia Airlines,8,L'avion nécessite un stationnement sur le tarmac,1,ALERTE : L'atterrissage de l'avion de la compagnie Croatia Airlines aura lieu pendant les heures de pointe. Un aménagement immédiat doit être fait.
+2024-11-16 08:25:00+00:00,Asiana Airlines,8,L'avion nécessite un stationnement sur le tarmac,1,ALERTE : L'atterrissage de l'avion de la compagnie Asiana Airlines aura lieu pendant les heures de pointe. Un aménagement immédiat doit être fait.
+2024-11-16 08:25:00+00:00,Air India,8,L'avion nécessite un stationnement sur le tarmac,1,ALERTE : L'atterrissage de l'avion de la compagnie Air India aura lieu pendant les heures de pointe. Un aménagement immédiat doit être fait.
+2024-11-16 08:25:00+00:00,Air France,8,L'avion nécessite un stationnement sur le tarmac,1,ALERTE : L'atterrissage de l'avion de la compagnie Air France aura lieu pendant les heures de pointe. Un aménagement immédiat doit être fait.
+2024-11-16 08:25:00+00:00,Air Canada,8,L'avion nécessite un stationnement sur le tarmac,1,ALERTE : L'atterrissage de l'avion de la compagnie Air Canada aura lieu pendant les heures de pointe. Un aménagement immédiat doit être fait.
+2024-11-16 07:30:00+00:00,JetBlue Airways,7,L'avion nécessite un stationnement sur le tarmac,1,L'avion de la compagnie JetBlue Airways est autorisé à stationner sur le tarmac.
+2024-11-16 07:30:00+00:00,Icelandair,7,L'avion nécessite un stationnement sur le tarmac,1,L'avion de la compagnie Icelandair est autorisé à stationner sur le tarmac.
+2024-11-16 09:05:00+00:00,Delta Air Lines,9,L'avion nécessite un stationnement sur le tarmac,1,L'avion de la compagnie Delta Air Lines est autorisé à stationner sur le tarmac.
+2024-11-16 09:05:00+00:00,Gol,9,L'avion nécessite un stationnement sur le tarmac,1,L'avion de la compagnie Gol est autorisé à stationner sur le tarmac.
+2024-11-16 09:05:00+00:00,SWISS,9,L'avion nécessite un stationnement sur le tarmac,1,L'avion de la compagnie SWISS est autorisé à stationner sur le tarmac.
+2024-11-16 09:05:00+00:00,Air Mauritius,9,L'avion nécessite un stationnement sur le tarmac,1,L'avion de la compagnie Air Mauritius est autorisé à stationner sur le tarmac.
+2024-11-16 09:05:00+00:00,China Eastern Airlines,9,L'avion nécessite un stationnement sur le tarmac,1,L'avion de la compagnie China Eastern Airlines est autorisé à stationner sur le tarmac.
+2024-11-16 09:05:00+00:00,Air Europa,9,L'avion nécessite un stationnement sur le tarmac,1,L'avion de la compagnie Air Europa est autorisé à stationner sur le tarmac.
+2024-11-16 09:05:00+00:00,Vietnam Airlines,9,L'avion nécessite un stationnement sur le tarmac,1,L'avion de la compagnie Vietnam Airlines est autorisé à stationner sur le tarmac.
+2024-11-16 09:05:00+00:00,WestJet,9,L'avion nécessite un stationnement sur le tarmac,1,L'avion de la compagnie WestJet est autorisé à stationner sur le tarmac.
+2024-11-16 09:05:00+00:00,Air France,9,L'avion nécessite un stationnement sur le tarmac,1,L'avion de la compagnie Air France est autorisé à stationner sur le tarmac.
+2024-11-16 09:05:00+00:00,Royal Air Maroc,9,L'avion nécessite un stationnement sur le tarmac,1,L'avion de la compagnie Royal Air Maroc est autorisé à stationner sur le tarmac.
+2024-11-16 07:40:00+00:00,easyJet,7,L'avion nécessite un stationnement sur le tarmac,1,L'avion de la compagnie easyJet est autorisé à stationner sur le tarmac.
+2024-11-16 08:35:00+00:00,Etihad Airways,8,L'avion nécessite un stationnement sur le tarmac,1,ALERTE : L'atterrissage de l'avion de la compagnie Etihad Airways aura lieu pendant les heures de pointe. Un aménagement immédiat doit être fait.
+2024-11-16 08:35:00+00:00,Hainan Airlines,8,L'avion nécessite un stationnement sur le tarmac,1,ALERTE : L'atterrissage de l'avion de la compagnie Hainan Airlines aura lieu pendant les heures de pointe. Un aménagement immédiat doit être fait.

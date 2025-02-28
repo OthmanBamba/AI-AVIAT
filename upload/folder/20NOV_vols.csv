@@ -1,0 +1,101 @@
+flight_date,flight_status,airline,flight,aircraft,live,departure_airport,departure_time,arrival_airport,arrival_time
+2024-11-21T00:05:00+00:00,scheduled,Xiamen Airlines,MF825,None,None,Xiamen,2024-11-21T00:05:00+00:00,Charles De Gaulle,2024-11-21T06:00:00+00:00
+2024-11-21T00:50:00+00:00,scheduled,China Eastern Airlines,MU553,None,None,Shanghai Pudong International,2024-11-21T00:50:00+00:00,Charles De Gaulle,2024-11-21T06:00:00+00:00
+2024-11-21T01:25:00+00:00,scheduled,Air France,AF381,None,None,Beijing Capital International,2024-11-21T01:25:00+00:00,Charles De Gaulle,2024-11-21T07:25:00+00:00
+2024-11-21T00:05:00+00:00,scheduled,Thai Airways International,TG930,None,None,Suvarnabhumi International,2024-11-21T00:05:00+00:00,Charles De Gaulle,2024-11-21T06:50:00+00:00
+2024-11-21T00:35:00+00:00,scheduled,China Southern Airlines,CZ347,None,None,Guangzhou Baiyun International,2024-11-21T00:35:00+00:00,Charles De Gaulle,2024-11-21T06:40:00+00:00
+2024-11-21T00:15:00+00:00,scheduled,Cathay Pacific,CX261,None,None,Hong Kong International,2024-11-21T00:15:00+00:00,Charles De Gaulle,2024-11-21T07:35:00+00:00
+2024-11-21T01:20:00+00:00,scheduled,Air China LTD,CA1035,None,None,Shanghai Pudong International,2024-11-21T01:20:00+00:00,Charles De Gaulle,2024-11-21T07:05:00+00:00
+2024-11-21T00:15:00+00:00,scheduled,Singapore Airlines,SQ336,None,None,Singapore Changi,2024-11-21T00:15:00+00:00,Charles De Gaulle,2024-11-21T07:15:00+00:00
+2024-11-20T09:05:00+00:00,landed,Air Europa,UX2211,None,None,Geneve-cointrin,2024-11-20T09:05:00+00:00,Charles De Gaulle,2024-11-20T10:20:00+00:00
+2024-11-20T09:05:00+00:00,landed,Vietnam Airlines,VN3143,None,None,Geneve-cointrin,2024-11-20T09:05:00+00:00,Charles De Gaulle,2024-11-20T10:20:00+00:00
+2024-11-20T09:05:00+00:00,landed,WestJet,WS5175,None,None,Geneve-cointrin,2024-11-20T09:05:00+00:00,Charles De Gaulle,2024-11-20T10:20:00+00:00
+2024-11-20T09:05:00+00:00,landed,Air France,AF1543,BCS3,None,Geneve-cointrin,2024-11-20T09:05:00+00:00,Charles De Gaulle,2024-11-20T10:20:00+00:00
+2024-11-20T09:00:00+00:00,landed,Air France,AF4918,None,None,Gardermoen,2024-11-20T09:00:00+00:00,Charles De Gaulle,2024-11-20T11:25:00+00:00
+2024-11-20T09:00:00+00:00,landed,El Al,LY9794,None,None,Gardermoen,2024-11-20T09:00:00+00:00,Charles De Gaulle,2024-11-20T11:25:00+00:00
+2024-11-20T09:00:00+00:00,landed,SAS,SK837,A20N,None,Gardermoen,2024-11-20T09:00:00+00:00,Charles De Gaulle,2024-11-20T11:25:00+00:00
+2024-11-20T07:30:00+00:00,landed,JetBlue Airways,B65642,None,None,Keflavik International,2024-11-20T07:30:00+00:00,Charles De Gaulle,2024-11-20T12:00:00+00:00
+2024-11-20T07:30:00+00:00,active,Emirates,EK3318,None,None,Keflavik International,2024-11-20T07:30:00+00:00,Charles De Gaulle,2024-11-20T12:00:00+00:00
+2024-11-20T07:30:00+00:00,landed,Icelandair,FI542,B38M,None,Keflavik International,2024-11-20T07:30:00+00:00,Charles De Gaulle,2024-11-20T12:00:00+00:00
+2024-11-20T08:25:00+00:00,landed,Air Canada,AC2971,None,None,Pleso,2024-11-20T08:25:00+00:00,Charles De Gaulle,2024-11-20T10:30:00+00:00
+2024-11-20T08:25:00+00:00,landed,Air France,AF5075,None,None,Pleso,2024-11-20T08:25:00+00:00,Charles De Gaulle,2024-11-20T10:30:00+00:00
+2024-11-20T08:25:00+00:00,landed,Air India,AI7514,None,None,Pleso,2024-11-20T08:25:00+00:00,Charles De Gaulle,2024-11-20T10:30:00+00:00
+2024-11-20T08:25:00+00:00,landed,Asiana Airlines,OZ9382,None,None,Pleso,2024-11-20T08:25:00+00:00,Charles De Gaulle,2024-11-20T10:30:00+00:00
+2024-11-20T08:25:00+00:00,landed,Croatia Airlines,OU470,A319,None,Pleso,2024-11-20T08:25:00+00:00,Charles De Gaulle,2024-11-20T10:30:00+00:00
+2024-11-20T10:30:00+00:00,landed,Sichuan Airlines,3U7213,None,None,Istanbul Airport,2024-11-20T10:30:00+00:00,Charles De Gaulle,2024-11-20T12:20:00+00:00
+2024-11-20T10:30:00+00:00,landed,Air Seychelles,HM6404,None,None,Istanbul Airport,2024-11-20T10:30:00+00:00,Charles De Gaulle,2024-11-20T12:20:00+00:00
+2024-11-20T10:30:00+00:00,landed,United Airlines,UA6926,None,None,Istanbul Airport,2024-11-20T10:30:00+00:00,Charles De Gaulle,2024-11-20T12:20:00+00:00
+2024-11-20T10:30:00+00:00,landed,Turkish Airlines,TK1823,A332,None,Istanbul Airport,2024-11-20T10:30:00+00:00,Charles De Gaulle,2024-11-20T12:20:00+00:00
+2024-11-20T09:00:00+00:00,landed,SAS,SK573,A20N,None,Arlanda,2024-11-20T09:00:00+00:00,Charles De Gaulle,2024-11-20T11:35:00+00:00
+2024-11-20T08:20:00+00:00,landed,Lufthansa,LH1028,A319,None,Frankfurt International Airport,2024-11-20T08:20:00+00:00,Charles De Gaulle,2024-11-20T09:35:00+00:00
+2024-11-20T08:55:00+00:00,landed,Air France,AF1437,A319,None,Schiphol,2024-11-20T08:55:00+00:00,Charles De Gaulle,2024-11-20T10:20:00+00:00
+2024-11-20T08:35:00+00:00,landed,Delta Air Lines,DL6622,None,None,Leonardo Da Vinci (Fiumicino),2024-11-20T08:35:00+00:00,Charles De Gaulle,2024-11-20T10:50:00+00:00
+2024-11-20T08:35:00+00:00,landed,Etihad Airways,EY2832,None,None,Leonardo Da Vinci (Fiumicino),2024-11-20T08:35:00+00:00,Charles De Gaulle,2024-11-20T10:50:00+00:00
+2024-11-20T08:35:00+00:00,landed,Hainan Airlines,HU8247,None,None,Leonardo Da Vinci (Fiumicino),2024-11-20T08:35:00+00:00,Charles De Gaulle,2024-11-20T10:50:00+00:00
+2024-11-20T08:35:00+00:00,landed,Kenya Airways,KQ4333,None,None,Leonardo Da Vinci (Fiumicino),2024-11-20T08:35:00+00:00,Charles De Gaulle,2024-11-20T10:50:00+00:00
+2024-11-20T08:35:00+00:00,landed,Xiamen Airlines,MF9578,None,None,Leonardo Da Vinci (Fiumicino),2024-11-20T08:35:00+00:00,Charles De Gaulle,2024-11-20T10:50:00+00:00
+2024-11-20T08:35:00+00:00,landed,Vietnam Airlines,VN3156,None,None,Leonardo Da Vinci (Fiumicino),2024-11-20T08:35:00+00:00,Charles De Gaulle,2024-11-20T10:50:00+00:00
+2024-11-20T08:35:00+00:00,landed,ITA Airways,AZ316,A21N,None,Leonardo Da Vinci (Fiumicino),2024-11-20T08:35:00+00:00,Charles De Gaulle,2024-11-20T10:50:00+00:00
+2024-11-20T07:15:00+00:00,landed,British Airways,BA304,A320,None,Heathrow,2024-11-20T07:15:00+00:00,Charles De Gaulle,2024-11-20T09:35:00+00:00
+2024-11-20T10:15:00+00:00,active,KLM,KL2231,None,None,Tan Son Nhat International,2024-11-20T10:15:00+00:00,Charles De Gaulle,2024-11-20T18:35:00+00:00
+2024-11-20T10:15:00+00:00,active,Vietnam Airlines,VN2107,None,None,Tan Son Nhat International,2024-11-20T10:15:00+00:00,Charles De Gaulle,2024-11-20T18:35:00+00:00
+2024-11-20T09:35:00+00:00,landed,EgyptAir,MS799,B789,None,Cairo International Airport,2024-11-20T09:35:00+00:00,Charles De Gaulle,2024-11-20T13:25:00+00:00
+2024-11-20T09:35:00+00:00,landed,Air Canada,AC2903,None,None,Cairo International Airport,2024-11-20T09:35:00+00:00,Charles De Gaulle,2024-11-20T13:25:00+00:00
+2024-11-20T08:25:00+00:00,landed,SAS,SK565,A20N,None,Kastrup,2024-11-20T08:25:00+00:00,Charles De Gaulle,2024-11-20T10:20:00+00:00
+2024-11-20T08:25:00+00:00,landed,Air France,AF4581,None,None,Kastrup,2024-11-20T08:25:00+00:00,Charles De Gaulle,2024-11-20T10:20:00+00:00
+2024-11-20T08:25:00+00:00,landed,Aegean Airlines,A33318,None,None,Kastrup,2024-11-20T08:25:00+00:00,Charles De Gaulle,2024-11-20T10:20:00+00:00
+2024-11-20T09:35:00+00:00,landed,Aeromexico,AM5730,None,None,Düsseldorf International Airport,2024-11-20T09:35:00+00:00,Charles De Gaulle,2024-11-20T10:50:00+00:00
+2024-11-20T09:35:00+00:00,landed,Delta Air Lines,DL8433,None,None,Düsseldorf International Airport,2024-11-20T09:35:00+00:00,Charles De Gaulle,2024-11-20T10:50:00+00:00
+2024-11-20T09:35:00+00:00,landed,Jet Linx Aviation,JL5336,None,None,Düsseldorf International Airport,2024-11-20T09:35:00+00:00,Charles De Gaulle,2024-11-20T10:50:00+00:00
+2024-11-20T09:35:00+00:00,landed,Korean Air,KE6360,None,None,Düsseldorf International Airport,2024-11-20T09:35:00+00:00,Charles De Gaulle,2024-11-20T10:50:00+00:00
+2024-11-20T11:55:00+00:00,landed,China Eastern Airlines,MU1672,None,None,Hamburg Airport,2024-11-20T11:55:00+00:00,Charles De Gaulle,2024-11-20T13:35:00+00:00
+2024-11-20T09:25:00+00:00,landed,Aeromexico,AM5898,None,None,Blagnac,2024-11-20T09:25:00+00:00,Charles De Gaulle,2024-11-20T10:55:00+00:00
+2024-11-20T09:25:00+00:00,landed,Alitalia,AZ2567,None,None,Blagnac,2024-11-20T09:25:00+00:00,Charles De Gaulle,2024-11-20T10:55:00+00:00
+2024-11-20T09:25:00+00:00,landed,Delta Air Lines,DL8318,None,None,Blagnac,2024-11-20T09:25:00+00:00,Charles De Gaulle,2024-11-20T10:55:00+00:00
+2024-11-20T09:25:00+00:00,landed,Gol,G35286,None,None,Blagnac,2024-11-20T09:25:00+00:00,Charles De Gaulle,2024-11-20T10:55:00+00:00
+2024-11-20T09:25:00+00:00,landed,Jet Linx Aviation,JL5330,None,None,Blagnac,2024-11-20T09:25:00+00:00,Charles De Gaulle,2024-11-20T10:55:00+00:00
+2024-11-20T09:25:00+00:00,landed,Air Mauritius,MK9131,None,None,Blagnac,2024-11-20T09:25:00+00:00,Charles De Gaulle,2024-11-20T10:55:00+00:00
+2024-11-20T09:25:00+00:00,landed,China Eastern Airlines,MU1541,None,None,Blagnac,2024-11-20T09:25:00+00:00,Charles De Gaulle,2024-11-20T10:55:00+00:00
+2024-11-20T09:25:00+00:00,landed,TAROM,RO9576,None,None,Blagnac,2024-11-20T09:25:00+00:00,Charles De Gaulle,2024-11-20T10:55:00+00:00
+2024-11-20T09:25:00+00:00,landed,SAS,SK9884,None,None,Blagnac,2024-11-20T09:25:00+00:00,Charles De Gaulle,2024-11-20T10:55:00+00:00
+2024-11-20T09:25:00+00:00,landed,Singapore Airlines,SQ1853,None,None,Blagnac,2024-11-20T09:25:00+00:00,Charles De Gaulle,2024-11-20T10:55:00+00:00
+2024-11-20T09:25:00+00:00,landed,Vietnam Airlines,VN3219,None,None,Blagnac,2024-11-20T09:25:00+00:00,Charles De Gaulle,2024-11-20T10:55:00+00:00
+2024-11-20T09:25:00+00:00,landed,WestJet,WS5073,None,None,Blagnac,2024-11-20T09:25:00+00:00,Charles De Gaulle,2024-11-20T10:55:00+00:00
+2024-11-20T09:25:00+00:00,landed,Air France,AF7401,A321,None,Blagnac,2024-11-20T09:25:00+00:00,Charles De Gaulle,2024-11-20T10:55:00+00:00
+2024-11-20T09:45:00+00:00,landed,Iberia,IB585,A321,None,Barajas,2024-11-20T09:45:00+00:00,Charles De Gaulle,2024-11-20T11:55:00+00:00
+2024-11-20T10:00:00+00:00,landed,Air France,AF1001,BCS3,None,Barajas,2024-11-20T10:00:00+00:00,Charles De Gaulle,2024-11-20T12:10:00+00:00
+2024-11-20T13:05:00+00:00,active,Air India,AI143,B789,"{'updated': '2024-11-20T13:29:42+00:00', 'latitude': 41.5664, 'longitude': 35.3449, 'altitude': 11574.8, 'direction': 287, 'speed_horizontal': 811.176, 'speed_vertical': 0, 'is_ground': False}",Indira Gandhi International,2024-11-20T13:05:00+00:00,Charles De Gaulle,2024-11-20T17:55:00+00:00
+2024-11-20T09:25:00+00:00,landed,Lufthansa,LH1030,A320,None,Frankfurt International Airport,2024-11-20T09:25:00+00:00,Charles De Gaulle,2024-11-20T10:40:00+00:00
+2024-11-20T09:40:00+00:00,landed,Air France,AF1519,E190,None,Frankfurt International Airport,2024-11-20T09:40:00+00:00,Charles De Gaulle,2024-11-20T11:10:00+00:00
+2024-11-20T09:50:00+00:00,landed,Air France,AF1149,BCS3,None,El Prat De Llobregat,2024-11-20T09:50:00+00:00,Charles De Gaulle,2024-11-20T11:50:00+00:00
+2024-11-20T08:55:00+00:00,landed,Air France,AF1717,A318,None,Dublin International,2024-11-20T08:55:00+00:00,Charles De Gaulle,2024-11-20T11:45:00+00:00
+2024-11-20T08:55:00+00:00,landed,WestJet,WS5126,None,None,Dublin International,2024-11-20T08:55:00+00:00,Charles De Gaulle,2024-11-20T11:45:00+00:00
+2024-11-20T08:55:00+00:00,landed,Saudia,SV6282,None,None,Dublin International,2024-11-20T08:55:00+00:00,Charles De Gaulle,2024-11-20T11:45:00+00:00
+2024-11-20T08:55:00+00:00,landed,Gol,G35197,None,None,Dublin International,2024-11-20T08:55:00+00:00,Charles De Gaulle,2024-11-20T11:45:00+00:00
+2024-11-20T08:55:00+00:00,landed,Delta Air Lines,DL8243,None,None,Dublin International,2024-11-20T08:55:00+00:00,Charles De Gaulle,2024-11-20T11:45:00+00:00
+2024-11-20T08:55:00+00:00,landed,Aeromexico,AM5770,None,None,Dublin International,2024-11-20T08:55:00+00:00,Charles De Gaulle,2024-11-20T11:45:00+00:00
+2024-11-20T10:40:00+00:00,landed,Sky Express,GQ900,A21N,None,"Athens International Airport ""Eleftherios Venizelos""",2024-11-20T10:40:00+00:00,Charles De Gaulle,2024-11-20T13:15:00+00:00
+2024-11-20T13:45:00+00:00,active,Air India,AI2021,B789,"{'updated': '2024-11-20T13:29:57+00:00', 'latitude': 40.8217, 'longitude': 44.2261, 'altitude': 11894.8, 'direction': 272.77, 'speed_horizontal': 841.788, 'speed_vertical': 10.548, 'is_ground': False}",Indira Gandhi International,2024-11-20T13:45:00+00:00,Charles De Gaulle,2024-11-20T18:40:00+00:00
+2024-11-20T09:45:00+00:00,landed,Air France,AF1213,A320,None,Linate,2024-11-20T09:45:00+00:00,Charles De Gaulle,2024-11-20T11:20:00+00:00
+2024-11-20T09:45:00+00:00,landed,WestJet,WS5178,None,None,Linate,2024-11-20T09:45:00+00:00,Charles De Gaulle,2024-11-20T11:20:00+00:00
+2024-11-20T09:45:00+00:00,landed,Gol,G35270,None,None,Linate,2024-11-20T09:45:00+00:00,Charles De Gaulle,2024-11-20T11:20:00+00:00
+2024-11-20T09:45:00+00:00,landed,Delta Air Lines,DL8274,None,None,Linate,2024-11-20T09:45:00+00:00,Charles De Gaulle,2024-11-20T11:20:00+00:00
+2024-11-20T09:45:00+00:00,landed,Aeromexico,AM5882,None,None,Cote D'azur International Airport,2024-11-20T09:45:00+00:00,Charles De Gaulle,2024-11-20T11:25:00+00:00
+2024-11-20T09:45:00+00:00,landed,Etihad Airways,EY6041,None,None,Cote D'azur International Airport,2024-11-20T09:45:00+00:00,Charles De Gaulle,2024-11-20T11:25:00+00:00
+2024-11-20T09:45:00+00:00,landed,Air Mauritius,MK9081,None,None,Cote D'azur International Airport,2024-11-20T09:45:00+00:00,Charles De Gaulle,2024-11-20T11:25:00+00:00
+2024-11-20T09:45:00+00:00,landed,China Eastern Airlines,MU1514,None,None,Cote D'azur International Airport,2024-11-20T09:45:00+00:00,Charles De Gaulle,2024-11-20T11:25:00+00:00
+2024-11-20T09:45:00+00:00,landed,Saudia,SV6046,None,None,Cote D'azur International Airport,2024-11-20T09:45:00+00:00,Charles De Gaulle,2024-11-20T11:25:00+00:00
+2024-11-20T09:45:00+00:00,landed,WestJet,WS5040,None,None,Cote D'azur International Airport,2024-11-20T09:45:00+00:00,Charles De Gaulle,2024-11-20T11:25:00+00:00
+2024-11-20T10:00:00+00:00,landed,Air France,AF1067,A318,None,Peretola,2024-11-20T10:00:00+00:00,Charles De Gaulle,2024-11-20T11:50:00+00:00
+2024-11-20T10:00:00+00:00,landed,WestJet,WS5173,None,None,Peretola,2024-11-20T10:00:00+00:00,Charles De Gaulle,2024-11-20T11:50:00+00:00
+2024-11-20T10:00:00+00:00,landed,KLM,KL2127,None,None,Peretola,2024-11-20T10:00:00+00:00,Charles De Gaulle,2024-11-20T11:50:00+00:00
+2024-11-20T10:00:00+00:00,landed,Gol,G35246,None,None,Peretola,2024-11-20T10:00:00+00:00,Charles De Gaulle,2024-11-20T11:50:00+00:00
+2024-11-20T10:00:00+00:00,landed,Delta Air Lines,DL8563,None,None,Peretola,2024-11-20T10:00:00+00:00,Charles De Gaulle,2024-11-20T11:50:00+00:00
+2024-11-20T09:45:00+00:00,landed,Air France,AF7301,A321,None,Cote D'azur International Airport,2024-11-20T09:45:00+00:00,Charles De Gaulle,2024-11-20T11:25:00+00:00
+2024-11-20T10:05:00+00:00,scheduled,Air France,AF1205,A319,"{'updated': '2024-11-20T12:46:22+00:00', 'latitude': 49.0079, 'longitude': 2.5641, 'altitude': 0, 'direction': 120, 'speed_horizontal': 27.78, 'speed_vertical': 0, 'is_ground': True}",Leonardo Da Vinci (Fiumicino),2024-11-20T10:05:00+00:00,Charles De Gaulle,2024-11-20T12:20:00+00:00
+2024-11-20T09:45:00+00:00,landed,Air France,AF1309,A318,None,Vienna International,2024-11-20T09:45:00+00:00,Charles De Gaulle,2024-11-20T11:55:00+00:00
+2024-11-20T09:45:00+00:00,landed,WestJet,WS5069,None,None,Vienna International,2024-11-20T09:45:00+00:00,Charles De Gaulle,2024-11-20T11:55:00+00:00
+2024-11-20T09:45:00+00:00,landed,SAS,SK9898,None,None,Vienna International,2024-11-20T09:45:00+00:00,Charles De Gaulle,2024-11-20T11:55:00+00:00
+2024-11-20T09:45:00+00:00,landed,Delta Air Lines,DL8291,None,None,Vienna International,2024-11-20T09:45:00+00:00,Charles De Gaulle,2024-11-20T11:55:00+00:00
+2024-11-20T09:45:00+00:00,landed,China Airlines,CI9302,None,None,Vienna International,2024-11-20T09:45:00+00:00,Charles De Gaulle,2024-11-20T11:55:00+00:00
+2024-11-20T10:55:00+00:00,active,Air France,AF6176,None,None,Ben Gurion International,2024-11-20T10:55:00+00:00,Charles De Gaulle,2024-11-20T14:55:00+00:00

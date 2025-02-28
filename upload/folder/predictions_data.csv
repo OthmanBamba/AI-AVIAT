@@ -1,0 +1,101 @@
+flight_date,flight,airline,flight_status,needs_parking,predicted_needs_parking
+2024-11-17T00:05:00+00:00,85,Thai Airways International,active,"En vol, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T00:20:00+00:00,73,China Eastern Airlines,active,"En vol, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T02:40:00+00:00,26,Air China LTD,active,"En vol, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T02:10:00+00:00,40,Delta Air Lines,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T02:10:00+00:00,56,KLM,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T02:10:00+00:00,8,Air France,scheduled,"Vol planifié, aucun besoin immédiat",L'avion nécessite un stationnement sur le tarmac
+2024-11-17T01:55:00+00:00,60,KLM,active,"En vol, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T01:55:00+00:00,6,Air France,active,"En vol, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T03:35:00+00:00,92,SriLankan Airlines,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T01:00:00+00:00,61,KLM,active,"En vol, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T01:25:00+00:00,82,Qatar Airways,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T02:45:00+00:00,0,CMA CGM Air Cargo,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T01:25:00+00:00,13,Air France,active,"En vol, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T01:00:00+00:00,11,Air France,active,"En vol, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T02:40:00+00:00,44,Etihad Airways,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T01:25:00+00:00,58,KLM,active,"En vol, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T01:20:00+00:00,48,Gulf Air,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T02:05:00+00:00,30,Delta Air Lines,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T02:05:00+00:00,62,KLM,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T02:05:00+00:00,16,Air France,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T08:25:00+00:00,54,JAL,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T09:05:00+00:00,10,Air France,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T07:50:00+00:00,52,Central Airlines,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T01:30:00+00:00,17,Air France,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T01:30:00+00:00,59,KLM,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T01:30:00+00:00,36,Delta Air Lines,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T03:20:00+00:00,41,Emirates,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T03:20:00+00:00,81,Qantas,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T03:20:00+00:00,47,Garuda Indonesia,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T02:05:00+00:00,18,Air France,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T02:05:00+00:00,76,CSA,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T02:05:00+00:00,29,Delta Air Lines,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T00:40:00+00:00,19,Air France,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T06:15:00+00:00,39,Delta Air Lines,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T06:15:00+00:00,64,KLM,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T06:15:00+00:00,7,Air France,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T02:05:00+00:00,84,Saudia,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T00:15:00+00:00,49,Air Senegal,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T00:15:00+00:00,50,Air Senegal,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T01:25:00+00:00,97,RwandAir,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T01:25:00+00:00,95,Virgin Australia,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T01:25:00+00:00,91,SriLankan Airlines,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T01:25:00+00:00,69,Malaysia Airlines,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T01:25:00+00:00,66,Air Malta,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T01:25:00+00:00,53,Iberia,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T02:40:00+00:00,12,Air France,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T02:40:00+00:00,90,SriLankan Airlines,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T00:35:00+00:00,20,Air France,active,"En vol, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T01:55:00+00:00,33,Delta Air Lines,active,"En vol, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T01:45:00+00:00,9,Air France,active,"En vol, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T01:45:00+00:00,63,KLM,active,"En vol, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T01:45:00+00:00,38,Delta Air Lines,active,"En vol, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T10:35:00+00:00,78,Asiana Airlines,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T00:20:00+00:00,15,Air France,active,"En vol, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T03:25:00+00:00,37,Delta Air Lines,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T00:15:00+00:00,94,Virgin Australia,active,"En vol, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T00:15:00+00:00,80,Philippine Airlines,active,"En vol, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T00:25:00+00:00,21,Air France,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T00:25:00+00:00,55,KLM,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T00:25:00+00:00,32,Delta Air Lines,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T09:45:00+00:00,74,ANA,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T00:40:00+00:00,31,Delta Air Lines,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T09:50:00+00:00,86,T'Way Air,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T03:25:00+00:00,1,Hi Fly,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T00:40:00+00:00,65,KLM,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T00:30:00+00:00,42,Ethiopian Airlines,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T00:30:00+00:00,75,ANA,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T00:30:00+00:00,3,Air Canada,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T03:25:00+00:00,4,Air France,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T03:25:00+00:00,98,WestJet,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T03:25:00+00:00,71,China Eastern Airlines,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T03:25:00+00:00,67,Kenya Airways,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T00:15:00+00:00,27,Cathay Pacific,active,"En vol, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T00:15:00+00:00,83,Singapore Airlines,active,"En vol, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T00:35:00+00:00,28,China Southern Airlines,active,"En vol, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T01:15:00+00:00,22,Air France,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T01:15:00+00:00,57,KLM,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-17T01:15:00+00:00,34,Delta Air Lines,scheduled,"Vol planifié, aucun besoin immédiat",L' avion ne nécessite pas de stationnement sur le tarmac
+2024-11-16T06:30:00+00:00,89,United Airlines,landed,Besoin de stationnement sur le tarmac,L'avion nécessite un stationnement sur le tarmac
+2024-11-16T08:25:00+00:00,88,United Airlines,landed,Besoin de stationnement sur le tarmac,L'avion nécessite un stationnement sur le tarmac
+2024-11-16T08:25:00+00:00,77,Croatia Airlines,landed,Besoin de stationnement sur le tarmac,L'avion nécessite un stationnement sur le tarmac
+2024-11-16T08:25:00+00:00,79,Asiana Airlines,landed,Besoin de stationnement sur le tarmac,L'avion nécessite un stationnement sur le tarmac
+2024-11-16T08:25:00+00:00,23,Air India,landed,Besoin de stationnement sur le tarmac,L'avion nécessite un stationnement sur le tarmac
+2024-11-16T08:25:00+00:00,14,Air France,landed,Besoin de stationnement sur le tarmac,L'avion nécessite un stationnement sur le tarmac
+2024-11-16T08:25:00+00:00,2,Air Canada,landed,Besoin de stationnement sur le tarmac,L'avion nécessite un stationnement sur le tarmac
+2024-11-16T07:30:00+00:00,25,JetBlue Airways,landed,Besoin de stationnement sur le tarmac,L'avion nécessite un stationnement sur le tarmac
+2024-11-16T07:30:00+00:00,45,Icelandair,landed,Besoin de stationnement sur le tarmac,L'avion nécessite un stationnement sur le tarmac
+2024-11-16T09:05:00+00:00,35,Delta Air Lines,landed,Besoin de stationnement sur le tarmac,L'avion nécessite un stationnement sur le tarmac
+2024-11-16T09:05:00+00:00,46,Gol,landed,Besoin de stationnement sur le tarmac,L'avion nécessite un stationnement sur le tarmac
+2024-11-16T09:05:00+00:00,68,SWISS,landed,Besoin de stationnement sur le tarmac,L'avion nécessite un stationnement sur le tarmac
+2024-11-16T09:05:00+00:00,70,Air Mauritius,landed,Besoin de stationnement sur le tarmac,L'avion nécessite un stationnement sur le tarmac
+2024-11-16T09:05:00+00:00,72,China Eastern Airlines,landed,Besoin de stationnement sur le tarmac,L'avion nécessite un stationnement sur le tarmac
+2024-11-16T09:05:00+00:00,93,Air Europa,landed,Besoin de stationnement sur le tarmac,L'avion nécessite un stationnement sur le tarmac
+2024-11-16T09:05:00+00:00,96,Vietnam Airlines,landed,Besoin de stationnement sur le tarmac,L'avion nécessite un stationnement sur le tarmac
+2024-11-16T09:05:00+00:00,99,WestJet,landed,Besoin de stationnement sur le tarmac,L'avion nécessite un stationnement sur le tarmac
+2024-11-16T09:05:00+00:00,5,Air France,landed,Besoin de stationnement sur le tarmac,L'avion nécessite un stationnement sur le tarmac
+2024-11-16T09:05:00+00:00,24,Royal Air Maroc,landed,Besoin de stationnement sur le tarmac,L'avion nécessite un stationnement sur le tarmac
+2024-11-16T07:40:00+00:00,87,easyJet,landed,Besoin de stationnement sur le tarmac,L'avion nécessite un stationnement sur le tarmac
+2024-11-16T08:35:00+00:00,43,Etihad Airways,landed,Besoin de stationnement sur le tarmac,L'avion nécessite un stationnement sur le tarmac
+2024-11-16T08:35:00+00:00,51,Hainan Airlines,landed,Besoin de stationnement sur le tarmac,L'avion nécessite un stationnement sur le tarmac

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire de téléchargement CSV</title>
+</head>
+<body>
+
+    <h2>Veuillez télécharger votre fichier CSV</h2>
+
+    <!-- Formulaire avec enctype="multipart/form-data" pour télécharger un fichier -->
+    <form action="{{ url_for('load_model_and_predict') }}" method="POST" enctype="multipart/form-data">
+        <!-- Le champ de type file pour télécharger un fichier -->
+        <label for="file">Choisissez un fichier CSV :</label>
+        <input type="file" name="file" id="file" required> <!-- L'attribut 'name="file"' doit correspondre dans Flask -->
+        <br><br>
+        <button type="submit">Envoyer</button>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Visualisations | AIRPLANESMARTPARK</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Sidebar styling */
+        .sidebar {
+            width: 200px;
+            background-color: #343a40;
+            color: #A9CAE3;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: fixed;
+            height: 100%;
+            top: 0;
+            left: 0;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .menu-title {
+            text-align: left;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        /* Sidebar list styling */
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 10px 0;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: #A9CAE3;
+            font-weight: bold;
+            transition: color 0.3s ease;
+            font-size: 1em;
+        }
+
+        ul li a:hover {
+            color: #00aaff;
+            text-decoration: underline;
+        }
+
+        .logout {
+            color: #A9CAE3;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Main panel styling */
+        .main-panel {
+            margin-left: 200px; /* Décalage pour éviter le chevauchement avec la sidebar */
+            background-image: url('{{ url_for('static', filename='images/ben2.png') }}');
+            background-size: cover;
+            background-position: center;
+            padding: 40px;
+            color: white;
+            min-height: 100vh;
+            background-attachment: fixed;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+        }
+
+        /* Titre en haut, centré */
+        .main-panel h1 {
+            text-align: center;
+            color: #A9CAE3;
+            font-size: 2.5em;
+            margin-bottom: 40px;
+            font-weight: bold;
+        }
+
+        .content {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            gap: 20px; /* Espacement entre les blocs */
+        }
+
+        .block {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            color: #A9CAE3;
+            width: 48%; /* Chaque bloc prend 48% de la largeur */
+            box-sizing: border-box;
+            border-radius: 10px;
+            max-height: 90vh; /* Limite la hauteur du bloc */
+            overflow-y: auto;
+        }
+
+        /* Barre verticale séparant les blocs */
+        .separator {
+            width: 5px;
+            background-color: #A9CAE3;
+            height: 100%;
+        }
+
+        /* Styling pour les tables (y compris dataset d'optimisation) */
+        table, th, td {
+            color: white;
+        }
+
+        th {
+            background-color: #444;
+        }
+
+        td {
+            background-color: #555;
+        }
+
+        /* Bouton de retour */
+        .retour-aipark {
+            font-size: 0.9em;
+            color: #A9CAE3;
+            text-decoration: none;
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        /* Pagination */
+        .pagination-container {
+            margin-top: 20px;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .pagination {
+            display: flex;
+            align-items: center;
+        }
+
+        .page-item {
+            margin-right: 10px;
+        }
+
+        .page-link {
+            background-color: #00aaff;
+            color: white;
+            border: none;
+            padding: 5px 15px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+
+        .page-link:hover {
+            background-color: #0099cc;
+        }
+
+        .upload-container {
+            margin-bottom: 20px;
+        }
+
+        .upload-container input {
+            margin-right: 10px;
+        }
+
+        .upload-container button {
+            background-color: #00aaff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        .upload-container button:hover {
+            background-color: #0099cc;
+        }
+
+/* Amélioration des tableaux */
+table {
+    width: 100%; /* Le tableau prend toute la largeur du conteneur */
+    border-collapse: collapse;
+    font-size: 0.9em; /* Taille de texte réduite pour éviter les débordements */
+    table-layout: auto; /* Fixe la largeur des colonnes */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    word-wrap: break-word; /* Permet de couper les mots si nécessaire */
+    overflow: hidden; /* Empêche les débordements */
+    white-space: normal; /* Force le contenu à rester sur une ligne */
+
+}
+/* Réduction de la taille des mots pour la colonne Date du Vol */
+th:first-child,
+td:first-child {
+    font-size: 0.8em; /* Réduction de la taille du texte */
+    white-space: nowrap; /* Empêche les retours à la ligne */
+    text-overflow: ellipsis; /* Ajoute "..." si le texte dépasse */
+    overflow: hidden;
+    max-width: 60px; /* Définit une largeur maximale */
+}
+th {
+    background-color: #444;
+    color: white;
+    font-weight: bold;
+}
+
+td {
+    background-color: #555;
+    color: white;
+}
+.pagination-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.page-link {
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.page-info {
+    display: inline-block;
+    padding: 8px 16px;
+}
+/* Ajout d'un conteneur pour gérer les tableaux très larges */
+.table-container {
+    overflow-x: auto; /* Ajoute un défilement horizontal si nécessaire */
+    max-width: 100%; /* Le conteneur ne dépasse pas la largeur du parent */
+    margin-bottom: 20px; /* Espacement sous le tableau */
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 10px;
+}
+/* La ligne des graphiques (on regroupe deux graphiques sur la même ligne) */
+/* Conteneur des graphiques */
+.graph-container-pred {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Centrer les éléments */
+    gap: 20px;            /* Espacement entre les lignes */
+}
+
+/* Ligne pour les graphiques en camembert */
+.graph-row {
+    display: flex;
+    justify-content: center;  /* Centrer les graphiques */
+    gap: 20px;                /* Espacement entre les deux graphiques */
+}
+
+/* Style pour chaque graphique */
+.graph {
+    max-width: 60%;  /* La largeur des graphiques en camembert sera de 45% */
+    height: auto;
+}
+
+/* Style pour l'histogramme */
+.graph-row .graph {
+    max-width: 60%;  /* L'histogramme sera aussi de 45% de largeur */
+    height: auto;
+}
+
+/* Si tu veux que les graphiques soient plus petits ou ajustés */
+.graph-img {
+    width: 100%;
+    height: auto;  /* Conserver les proportions des images */
+}
+
+    </style>
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div>
+            <h2 class="menu-title">Menu</h2>
+            <ul>
+                <li><a href="{{ url_for('home') }}">ACCUEIL</a></li>
+                <li><a href="{{ url_for('smart_parking') }}">AIPARKING</a></li>
+                <li><a href="{{ url_for('dataset_view') }}">DATASET</a></li>
+                <li><a href="{{ url_for('show_visualizations') }}">ANALYSES</a></li>
+
+            </ul>
+        </div>
+        <a href="{{ url_for('smart_parking') }}" class="retour-aipark">Retour à AIPARKING</a>
+    </div>
+
+    <!-- Main Panel -->
+    <div class="main-panel">
+        <!-- Titre centré en haut -->
+
+<h4 style="text-align: center; color: white;">*****DATA ANALYTICS*****</h4>
+        <div class="content">
+
+      <!-- Bloc pour Dataset de Prédiction -->
+      <div class="block">
+          <h4>Données Prédiction</h4>
+          <div class="upload-container">
+              <form action="{{ url_for('upload_prediction_dataset') }}" method="post" enctype="multipart/form-data">
+                  <input type="file" name="file" required>
+                  <button type="button" class="btn btn-primary" onclick="afficherPredictionData()">Afficher les predictions</button>
+              </form>
+          </div>
+          <br>
+
+          <button class="btn btn-secondary" id="distribution-btn">
+            Distribution...
+          </button>
+
+          <!-- Conteneur des graphiques, initialement caché -->
+          <div class="graph-container-pred" id="graphs-container" style="display: none;">
+              <!-- Vérification si pred_pie_chart_1 existe avant de l'afficher -->
+              {% if pred_pie_chart_1 %}
+                  <div class="graph-row">
+                      <div class="graph">
+                          <img src="data:image/png;base64,{{ pred_pie_chart_1 }}" alt="Graphique 1" class="graph-img">
+                      </div>
+                      <!-- Vérification si pred_pie_chart_2 existe avant de l'afficher -->
+                      {% if pred_pie_chart_2 %}
+                          <div class="graph">
+                              <img src="data:image/png;base64,{{ pred_pie_chart_2 }}" alt="Graphique 2" class="graph-img">
+                          </div>
+                      {% else %}
+                          <p>Graphique 2 indisponible.</p>
+                      {% endif %}
+                  </div>
+              {% else %}
+                  <p>Graphique 1 indisponible.</p>
+              {% endif %}
+
+              <!-- Vérification si pred_histogram existe avant de l'afficher -->
+              {% if pred_histogram %}
+                  <div class="graph-row">
+                      <div class="graph">
+                          <img src="data:image/png;base64,{{ pred_histogram }}" alt="Histogramme des Besoins de Stationnement Prédit" class="graph-img">
+                      </div>
+                  </div>
+              {% else %}
+                  <p>Histogramme indisponible.</p>
+              {% endif %}
+          </div>
+
+
+
+                          <!-- Conteneur pour les données de prédiction, visible par défaut -->
+                          <div id="prediction-data" style="display: {% if session.get('prediction_uploaded') %} block {% else %} none {% endif %};">
+{% if session.get('prediction_uploaded') %}
+<h5>Données Prédictions chargées</h5>
+<table class="table table-bordered">
+  <thead>
+      <tr>
+          <th>Date du Vol</th>
+          <th>Id vol</th>
+          <th>Compagnie Aérienne</th>
+          <th>Statut Vol</th>
+          <th>Besoin de Stationnement (réel)</th>
+          <th>Prédiction de Stationnement</th>
+      </tr>
+  </thead>
+  <tbody>
+      {% for row in session.get('prediction_df') %}
+      <tr>
+          <td>{{ row['flight_date'] }}</td>
+          <td>{{ row['flight'] }}</td>
+          <td>{{ row['airline'] }}</td>
+          <td>{{ row['flight_status'] }}</td>
+          <td>{{ row['needs_parking'] }}</td>
+          <td>{{ row['predicted_needs_parking'] }}</td>
+      </tr>
+      {% endfor %}
+  </tbody>
+</table>
+
+
+        <!--  #Pagination-->
+        <div class="pagination-container">
+            <button class="page-link" onclick="window.location.href='{{ url_for('show_visualizations', page_pred=current_page_pred - 1) }}'">Précédent</button>
+            <button class="page-link" onclick="window.location.href='{{ url_for('show_visualizations', page_pred=current_page_pred + 1) }}'">Suivant</button>
+        </div>
+    {% else %}
+        <p>Aucun dataset de prédiction téléchargé.</p>
+    {% endif %}
+</div>
+            </div>
+
+      <!-- Bloc pour Dataset d'Optimisation -->
+    <div class="block">
+        <h4>Données Optimisation</h4>
+
+        <!-- Formulaire pour uploader le dataset -->
+        <div class="upload-container">
+            <form action="{{ url_for('upload_optim_dataset') }}" method="post" enctype="multipart/form-data">
+                <input type="file" name="file" required>
+                <button type="button" class="btn btn-primary" onclick="afficherOptimData()">Afficher les optim</button>
+            </form>
+        </div>
+        <br>
+
+        <button class="btn btn-secondary" id="distribution-btn-optim">
+      Distribution...
+    </button>
+
+   <!-- Conteneur pour les données d'optimisation, visible par défaut -->
+   <div id="optim-data" style="display: {% if session.get('optim_uploaded') %} block {% else %} none {% endif %};">
+    {% if session.get('optim_uploaded') %}
+    <h5>Données Optimisation chargées</h5>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Date du Vol</th>
+                <th>Compagnie</th>
+                <th>Heure d'Arrivée</th>
+                <th>Besoin de Stationnement Prédit</th>
+                <th>Stationnement possible</th>
+                <th>Alerte</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in session.get('optim_df') %}
+            <tr>
+                <td>{{ row['flight_date'] }}</td>
+                <td>{{ row['flight'] }} - {{ row['airline'] }}</td>  <!-- Affiche l'ID du vol et la compagnie -->
+                <td>{{ row['arrival_hour'] }}</td>
+                <td>{{ row['predicted_needs_parking'] }}</td>
+                <td>{{ row['can_park'] }}</td>
+                <td>{{ row['alert'] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+            <!-- Pagination -->
+  <div class="pagination-container">
+      <button class="page-link" onclick="window.location.href='{{ url_for('show_visualizations', page_optim=current_page_optim - 1) }}'">Précédent</button>
+      <button class="page-link" onclick="window.location.href='{{ url_for('show_visualizations', page_optim=current_page_optim + 1) }}'">Suivant</button>
+  </div>
+  {% else %}
+      <p>Aucun dataset d'optimisation téléchargé.</p>
+  {% endif %}
+</div>
+<script>
+    // Fonction pour afficher/masquer les données de prédiction
+    function afficherPredictionData() {
+        var dataDiv = document.getElementById('prediction-data');
+        if (dataDiv.style.display === "none") {
+            dataDiv.style.display = "block";
+        } else {
+            dataDiv.style.display = "none";
+        }
+    }
+
+    // Fonction pour afficher/masquer les données d'optimisation
+    function afficherOptimData() {
+        var dataDiv = document.getElementById('optim-data');
+        if (dataDiv.style.display === "none") {
+            dataDiv.style.display = "block";
+        } else {
+            dataDiv.style.display = "none";
+        }
+    }
+</script>
+
+</body>
+</html>

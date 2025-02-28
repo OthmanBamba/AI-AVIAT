@@ -1,0 +1,101 @@
+airline,flight,flight_status,needs_parking
+China Eastern Airlines,MU553,scheduled,ne nécessite pas de stationnement
+Singapore Airlines,SQ336,scheduled,ne nécessite pas de stationnement
+China Southern Airlines,CZ347,scheduled,ne nécessite pas de stationnement
+Cathay Pacific,CX261,scheduled,ne nécessite pas de stationnement
+SunExpress,XQ916,active,ne nécessite pas de stationnement
+Vistara,UK23,scheduled,ne nécessite pas de stationnement
+Air India,AI143,scheduled,ne nécessite pas de stationnement
+Nouvelair Tunisie,BJ508,active,ne nécessite pas de stationnement
+Air France,AF4581,landed,nécessite un stationnement
+SAS,SK565,landed,nécessite un stationnement
+Turkish Airlines,TK1823,active,ne nécessite pas de stationnement
+Aegean Airlines,A33318,landed,nécessite un stationnement
+Lufthansa,LH1028,landed,nécessite un stationnement
+Delta Air Lines,DL6622,landed,nécessite un stationnement
+Etihad Airways,EY2832,landed,nécessite un stationnement
+Hainan Airlines,HU8247,landed,nécessite un stationnement
+Kenya Airways,KQ4333,landed,nécessite un stationnement
+Xiamen Airlines,MF9578,landed,nécessite un stationnement
+Vietnam Airlines,VN3156,landed,nécessite un stationnement
+ITA Airways,AZ316,landed,nécessite un stationnement
+Air France,AF1437,landed,ne nécessite pas de stationnement
+Aegean Airlines,A33369,active,ne nécessite pas de stationnement
+Air France,AF3848,active,ne nécessite pas de stationnement
+El Al,LY9744,active,ne nécessite pas de stationnement
+SAS,SK573,active,ne nécessite pas de stationnement
+Volotea,V79009,scheduled,ne nécessite pas de stationnement
+Air France,AF5093,active,ne nécessite pas de stationnement
+Korean Air,KE5901,active,ne nécessite pas de stationnement
+Aeromexico,AM5875,active,ne nécessite pas de stationnement
+Aerolineas Argentinas,AR7821,active,ne nécessite pas de stationnement
+Finnair,AY6326,active,ne nécessite pas de stationnement
+Delta Air Lines,DL8288,active,ne nécessite pas de stationnement
+Korean Air,KE6448,active,ne nécessite pas de stationnement
+Air Mauritius,MK9071,active,ne nécessite pas de stationnement
+TAROM,RO9550,active,ne nécessite pas de stationnement
+SAS,SK9864,active,ne nécessite pas de stationnement
+Vietnam Airlines,VN3207,active,ne nécessite pas de stationnement
+WestJet,WS5186,active,ne nécessite pas de stationnement
+Air France,AF7331,active,ne nécessite pas de stationnement
+TAP Air Portugal,TP6502,active,ne nécessite pas de stationnement
+Air France,AF9564,active,ne nécessite pas de stationnement
+Aeromexico,AM5770,active,ne nécessite pas de stationnement
+Delta Air Lines,DL8243,active,ne nécessite pas de stationnement
+Gol,G35197,active,ne nécessite pas de stationnement
+Saudia,SV6282,active,ne nécessite pas de stationnement
+WestJet,WS5126,active,ne nécessite pas de stationnement
+Air France,AF1717,active,ne nécessite pas de stationnement
+Aeromexico,AM5730,active,ne nécessite pas de stationnement
+Delta Air Lines,DL8433,active,ne nécessite pas de stationnement
+Jet Linx Aviation,JL5336,active,ne nécessite pas de stationnement
+Korean Air,KE6360,active,ne nécessite pas de stationnement
+Kenya Airways,KQ3951,active,ne nécessite pas de stationnement
+Air Mauritius,MK9367,active,ne nécessite pas de stationnement
+China Eastern Airlines,MU1666,active,ne nécessite pas de stationnement
+Air Austral,UU8307,active,ne nécessite pas de stationnement
+Air France,AF1307,active,ne nécessite pas de stationnement
+Air France,AF,landed,ne nécessite pas de stationnement
+Azores Airlines,S4512,scheduled,ne nécessite pas de stationnement
+Icelandair,FI542,active,ne nécessite pas de stationnement
+JetBlue Airways,B65642,active,ne nécessite pas de stationnement
+KLM,KL2345,active,ne nécessite pas de stationnement
+Sky Express,GQ900,scheduled,ne nécessite pas de stationnement
+WestJet,WS5173,active,ne nécessite pas de stationnement
+Air France,AF1067,active,ne nécessite pas de stationnement
+Delta Air Lines,DL8274,active,ne nécessite pas de stationnement
+Gol,G35270,active,ne nécessite pas de stationnement
+Air France,AF1213,active,ne nécessite pas de stationnement
+Air France,AF1519,active,ne nécessite pas de stationnement
+WestJet,WS5178,active,ne nécessite pas de stationnement
+British Airways,BA306,landed,nécessite un stationnement
+Air France,AF1681,active,ne nécessite pas de stationnement
+Aeromexico,AM5882,active,ne nécessite pas de stationnement
+Delta Air Lines,DL8396,active,ne nécessite pas de stationnement
+Etihad Airways,EY6041,active,ne nécessite pas de stationnement
+Air Mauritius,MK9081,active,ne nécessite pas de stationnement
+China Eastern Airlines,MU1514,active,ne nécessite pas de stationnement
+SmartLynx Airlines,6Y9,scheduled,ne nécessite pas de stationnement
+Air France,AF1001,active,ne nécessite pas de stationnement
+SAS,SK837,active,ne nécessite pas de stationnement
+El Al,LY9794,active,ne nécessite pas de stationnement
+Air France,AF4918,active,ne nécessite pas de stationnement
+Aegean Airlines,A33387,active,ne nécessite pas de stationnement
+WestJet,WS5028,active,ne nécessite pas de stationnement
+Air France,AF1149,active,ne nécessite pas de stationnement
+Gol,G35246,active,ne nécessite pas de stationnement
+KLM,KL2127,active,ne nécessite pas de stationnement
+KLM,KL2087,active,ne nécessite pas de stationnement
+Vistara,UK21,active,ne nécessite pas de stationnement
+Etihad Airways,EY5972,active,ne nécessite pas de stationnement
+Delta Air Lines,DL8256,active,ne nécessite pas de stationnement
+KLM,KL2179,active,ne nécessite pas de stationnement
+Air France,AF1085,scheduled,ne nécessite pas de stationnement
+Air France,AF8177,landed,nécessite un stationnement
+Delta Air Lines,DL8267,active,ne nécessite pas de stationnement
+KLM,KL2044,active,ne nécessite pas de stationnement
+Air Mauritius,MK9673,active,ne nécessite pas de stationnement
+SAS,SK9717,active,ne nécessite pas de stationnement
+WestJet,WS5112,active,ne nécessite pas de stationnement
+Air France,AF1193,scheduled,ne nécessite pas de stationnement
+Delta Air Lines,DL8621,active,ne nécessite pas de stationnement

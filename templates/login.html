@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion | AIRPLANESMARTPARK</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url("{{ url_for('static', filename='images/aircraft.png') }}");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .login-form {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-form">
+        <h3 class="text-center">Connexion</h3>
+        <form action="{{ url_for('login') }}" method="POST">
+    <div class="form-group">
+        <label for="username">Identifiant</label>
+        <input type="text" id="username" name="username" class="form-control" required>
+    </div>
+    <div class="form-group">
+        <label for="password">Mot de passe</label>
+        <input type="password" id="password" name="password" class="form-control" required>
+    </div>
+    <button type="submit" class="btn btn-primary btn-block">Se connecter</button>
+</form>
+    </div>
+</body>
+</html>

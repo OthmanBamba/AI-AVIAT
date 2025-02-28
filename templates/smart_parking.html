@@ -1,0 +1,122 @@
+{% extends "home.html" %}
+
+{% block content %}
+ <h3 style="color: #A9CAE3;">Smart Parking</h3>
+ <!-- Formulaire pour charger le fichier CSV -->
+ <form action="{{ url_for('smart_parking') }}" method="POST" enctype="multipart/form-data">
+     <label for="dataset" style="color: white;">Insérer le dataset CSV:</label>
+     <input type="file" id="dataset" name="dataset" accept=".csv" required>
+     <!-- Conteneur pour les boutons -->
+     <div class="button-container">
+         <button type="submit">Voir le contenu du CSV</button>
+     </div>
+ </form>
+
+
+
+    {% if csv_data %}
+    <h4>Contenu du CSV (lignes {{ (page-1)*8 + 1 }} à {{ (page-1)*8 + csv_data|length }})</h4>
+    <!-- Ajout d'un style pour le tableau -->
+    <style>
+        .csv-table {
+            background-color: white; /* Fond blanc pour le tableau */
+            color: black; /* Couleur du texte */
+            border-collapse: collapse; /* Évite les doubles bordures */
+            margin: 20px 0; /* Marges autour du tableau */
+            width: 100%; /* Largeur complète */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre légère pour un effet de profondeur */
+        }
+
+        .csv-table th, .csv-table td {
+            padding: 10px; /* Espacement dans les cellules */
+            text-align: left; /* Alignement à gauche du texte */
+            border: 1px solid #ddd; /* Bordure légère autour des cellules */
+        }
+
+        .csv-table th {
+            background-color: #f2f2f2; /* Fond légèrement gris pour les en-têtes */
+            font-weight: bold; /* Mettre les en-têtes en gras */
+        }
+        .button-container {
+        display: flex;
+        justify-content: flex-end; /* Aligner à droite */
+        margin-top: 20px; /* Espacement supérieur */
+    }
+    .pagination ul {
+      display: flex;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .pagination li {
+      margin-right: 10px; /* Espace entre les boutons */
+    }
+
+    .pagination a {
+      text-decoration: none;
+      padding: 8px 16px;
+      background-color: transparent;
+      color: #007bff;
+      border: 2px solid transparent; /* Bordure transparente */
+      border-radius: 4px;
+      display: inline-block;
+    }
+
+  .pagination a:hover {
+  background-color: rgba(0, 123, 255, 0.1); /* Fond légèrement bleu au survol */
+  color: #0056b3; /* Changement de couleur du texte au survol */
+  border-color: #0056b3;
+    }
+    </style>
+    <table class="csv-table">
+     <thead>
+         <tr>
+             {% for column in csv_data[0].keys() %}
+                 <th>{{ column }}</th>
+             {% endfor %}
+         </tr>
+     </thead>
+        <tbody>
+            {% for row in csv_data %}
+                <tr>
+                    {% for value in row.values() %}
+                        <td>{{ value }}</td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <div class="pagination">
+    {% set page = page | default(1) %}
+    <ul>
+        <!-- Bouton "Précédent" -->
+        {% if page > 1 %}
+        <li>
+            <a href="{{ url_for('smart_parking', page=page-1) }}">Précédent</a>
+        </li>
+        {% endif %}
+
+        <!-- Bouton "Suivant" -->
+        {% if page < total_pages %}
+        <li>
+            <a href="{{ url_for('smart_parking', page=page+1) }}">Suivant</a>
+        </li>
+        {% endif %}
+    </ul>
+</div>
+
+        <!-- Ajoutez ici un bouton pour générer les prédictions après avoir visualisé le CSV -->
+  <div class="button-container">
+      <form action="{{ url_for('load_model_and_predict') }}" method="POST">
+          <input type="hidden" name="csv_path" value="{{ csv_path }}">
+          <button type="submit">Générer les prédictions</button>
+      </form>
+  </div>
+
+
+
+{% else %}
+    <p style="color: red;">Aucun contenu à afficher. Veuillez télécharger un fichier CSV.</p>
+{% endif %}
+{% endblock %}
